@@ -2,7 +2,7 @@ LABEL KOLIBRIOS
 MENU LABEL ^Kolibri OS
 KERNEL boot/isolinux/memdisk
 INITRD er/plugins/kolibrios/kolibri.img
-APPEND harddisk raw
+APPEND raw
 TEXT HELP
 				FASM Language OS
 ENDTEXT
